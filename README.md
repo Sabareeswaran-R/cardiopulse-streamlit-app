@@ -1,25 +1,56 @@
-# 🫀 CardioPulse Clinical Cockpit
+# 🌱 AI Crop Intelligence
 
-An interactive clinical decision support web application built with **Streamlit**, powered by a **Random Forest Classifier** trained on the UCI Heart Disease dataset. **CardioPulse** evaluates patient vitals and clinical indicators to generate real-time diagnostic risk assessments and explainable feature impact visualizations.
+### AI-Powered Crop Yield Prediction and Optimization System
 
----
-
-## 📌 Features
-
-- **Clinical Parameter Controls**: Interactive sidebar for adjusting patient vitals (Age, Gender, Resting BP, Serum Cholesterol, ST Depression, Thalassemia, etc.).
-- **Diagnostic Risk Stratification**: Binary risk classification (`HIGH RISK` vs. `LOW RISK`) with calibrated disease probability outputs.
-- **Dynamic Feature Influence Analysis**: Viridis-styled horizontal bar visualizations dynamically reflecting weighted feature contributions for individual input profiles[cite: 1, 5, 6].
-- **Dark Clinical Dashboard UI**: Custom-styled Streamlit interface optimized for readable clinical review.
+**AI Crop Intelligence** is a machine learning-based agricultural project designed to analyze crop data and support data-driven farming decisions.
 
 ---
 
-## 🏗️ Project Architecture
+## 🚀 Project Features
+
+- **Crop Yield Prediction** – Predict crop yield using historical agricultural data and machine learning.
+- **Crop Data Analysis** – Analyze crop yield trends across crops, seasons, years, and states.
+- **Machine Learning Models** – Train and evaluate crop yield prediction models.
+- **Soil and Weather Analysis** – Support agricultural decision-making using relevant soil and climate information.
+- **Fertilizer Recommendation** – Planned module for crop nutrient optimization.
+- **Smart Irrigation** – Planned module for efficient water management.
+- **Leaf Disease Detection** – CNN-based model training module for crop leaf disease classification.
+- **Multilingual Support** – Frontend translation support.
+- **Interactive Dashboard** – Web interface for agricultural insights and predictions.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Core Programming**: Python
+- **Data Manipulation & Analysis**: Pandas, NumPy
+- **Machine Learning**: Scikit-learn
+- **Deep Learning**: Convolutional Neural Networks (CNN)
+- **Frontend / UI**: HTML, CSS, JavaScript
+
+---
+
+## 📁 Project Structure
 
 ```text
-├── app.py                         # Streamlit application dashboard
-├── train.py                       # Model training & serialization pipeline
-├── heart.csv                      # Clinical heart disease dataset
-├── random_forest_heart_model.pkl  # Trained Random Forest Classifier model
-├── scaler_heart.pkl               # Fitted StandardScaler object
-├── requirements.txt               # Python package dependencies
-└── README.md                      # Project documentation
+AI-Crop-Intelligence/
+├── backend/
+├── database/
+├── frontend/
+├── models/
+├── notebooks/
+├── requirements.txt
+└── README.md
+
+## 📊 Dataset and Model Files
+Large datasets and trained model files are excluded from this repository. Some features may require separate dataset downloads or model training before they can run.
+
+## 🎯 Project Goal
+To apply artificial intelligence and machine learning to agricultural data analysis, crop yield prediction, and farming optimization.
+
+##👨‍💻 Developer
+Sabareeswaran R
+
+##GitHub: @Sabareeswaran-R
+
+Domain: AI & Data Science
