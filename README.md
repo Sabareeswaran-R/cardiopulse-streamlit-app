@@ -41,16 +41,3 @@ AI-Crop-Intelligence/
 ├── notebooks/
 ├── requirements.txt
 └── README.md
-
- 📊 Dataset and Model Files
-Large datasets and trained model files are excluded from this repository. Some features may require separate dataset downloads or model training before they can run.
-
-## 🎯 Project Goal
-To apply artificial intelligence and machine learning to agricultural data analysis, crop yield prediction, and farming optimization.
-
-##👨‍💻 Developer
-Sabareeswaran R
-
-##GitHub: @Sabareeswaran-R
-
-Domain: AI & Data Science
